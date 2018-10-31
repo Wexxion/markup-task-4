@@ -1,0 +1,125 @@
+.button
+{
+    font-size: 3em;
+    display: block;
+    width: 1em;
+}
+
+input:checked ~ .button
+{
+    transform: rotate(-90deg);
+    transition: 1s ease-in-out;
+}
+
+input:not(:checked) ~ section article .additional
+{
+    display: none;
+}
+
+input:checked ~ section .item
+{
+    vertical-align: top;
+    width: 800px;
+    height: 750px;
+}
+
+input:checked ~ section .item .item-img
+{
+    width: 400px;
+    height: 400px;
+}
+
+.item
+{
+    width: 350px;
+    height: 480px;
+    display: inline-block;
+    border: 1px solid darkgrey;
+    box-shadow: 0 0 50px gray;
+    border-radius: 1em;
+    padding: 20px;
+    margin: 30px 70px 30px 70px;
+    transition: 1s ease-in-out;
+}
+
+.item:hover
+{
+    border: 1px solid black;
+    box-shadow: 10px -10px 100px black;
+    border-radius: 0.5em;
+}
+
+.item-img
+{
+    width: 280px;
+    height: 280px;
+    transition: 1s ease-in-out;
+    border-radius: 0.5em;
+}
+
+.item-img:hover
+{
+    transform: scale(1.1);
+    border-radius: 10% 50% 10%;
+}
+
+.name
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 2em;
+    transition: 1s ease-in-out;
+}
+
+.name:hover
+{
+    text-shadow: 2px 2px gray;
+    transform: scale(1.05);
+}
+
+.info
+{
+    color: darkgrey;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.info:hover
+{
+    color: gray;
+}
+
+.age:before
+{
+    content: 'Возраст: ';
+}
+
+.breed:before
+{
+    content: 'Порода: ';
+}
+
+.disease:before
+{
+    content: 'Болезни: ';
+}
+
+.status:before
+{
+    content: 'Статус: ';
+}
+
+.additional
+{
+    text-align: left;
+    margin-top: 5px;
+    font-size: 1.3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+main
+{
+    text-align: center;
+}

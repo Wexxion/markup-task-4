@@ -3,7 +3,151 @@
 <head>
     <meta charset="utf-8">
     <title>Задача «Про котиков»</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+<main>
+    <input type="checkbox" id="switch" hidden>
+    <label class="button" for="switch">☷</label>
+    <section>
+        <article class="item">
+            <img class="item-img" src="Img/Шокер.jpg" alt="Шокер">
+            <h1 class="name">Шокер</h1>
+            <div class="info">
+                <div class="age">1 год</div>
+                <div class="breed">нет</div>
+                <div class="disease">нет</div>
+                <div class="status">Сам найдет себе хозяина</div>
+            </div>
+            <div class="additional">
+                <p>Любит ковры и статическое электричество...</p>
+                <p>Сам устанавливает правила в ЕГО доме.</p>
+            </div>
+        </article>
+
+        <article class="item">
+            <img class="item-img" src="Img/Антонио.png" alt="Антонио">
+            <h1 class="name">Антонио</h1>
+            <div class="info">
+                <div class="age">5 месяцев</div>
+                <div class="breed">нет</div>
+                <div class="disease">глазоухость</div>
+                <div class="status">ищет хозяина</div>
+            </div>
+            <div class="additional">
+                <p>Всегда наблюдает за происходящим вокруг из укрытия</p>
+                <p>Спокоен, ест что найдет.</p>
+            </div>
+        </article>
+
+        <article class="item">
+            <img class="item-img" src="Img/Гриша.jpg" alt="Гриша">
+            <h1 class="name">Гриша</h1>
+            <div class="info">
+                <div class="age">2 года</div>
+                <div class="breed">нет</div>
+                <div class="disease">нет</div>
+                <div class="status">нашел хозяина</div>
+            </div>
+            <div class="additional">
+                <p>Любит пить из рюмок на столе</p>
+                <p>Душа компании, дружит со всеми котами вокруг</p>
+            </div>
+        </article>
+
+        <article class="item">
+            <img class="item-img" src="Img/Жужа.jpg" alt="Жужа">
+            <h1 class="name">Жужа</h1>
+            <div class="info">
+                <div class="age">1.5 года</div>
+                <div class="breed">нет</div>
+                <div class="disease">аллергия на пчел</div>
+                <div class="status">ищет хозяина</div>
+            </div>
+            <div class="additional">
+                <p>Любит гулять и играть.</p>
+                <p>ОЧЕНЬ НЕ любит пчел.</p>
+            </div>
+        </article>
+
+        <article class="item">
+            <img class="item-img" src="Img/Грэм.jpg" alt="Грэм">
+            <h1 class="name">Грэм</h1>
+            <div class="info">
+                <div class="age">1.5 года</div>
+                <div class="breed">нет</div>
+                <div class="disease">отсутсвие настроения</div>
+                <div class="status">нашел хозяина</div>
+            </div>
+            <div class="additional">
+                <p>Причудливый маленький котик</p>
+                <p>Идеально подойдет меланхоликам</p>
+            </div>
+        </article>
+
+        <article class="item">
+            <img class="item-img" src="Img/Майкл.jpg" alt="Майкл">
+            <h1 class="name">Майкл</h1>
+            <div class="info">
+                <div class="age">1 год</div>
+                <div class="breed">нет</div>
+                <div class="disease">нет</div>
+                <div class="status">ищет хозяина</div>
+            </div>
+            <div class="additional">
+                <p>Позитивный кот для веселых компаний</p>
+            </div>
+        </article>
+
+        <article class="item">
+            <img class="item-img" src="Img/Рудик.jpg" alt="Рудик">
+            <h1 class="name">Рудик</h1>
+            <div class="info">
+                <div class="age">2 года</div>
+                <div class="breed">нет</div>
+                <div class="disease">нет</div>
+                <div class="status">нашел хозяина</div>
+            </div>
+            <div class="additional">
+                <p>Прикольный кот с красивыми глазами</p>
+                <p>Любит сюрпризы и подарки в виде рыбы</p>
+            </div>
+        </article>
+
+        <article class="item">
+            <img class="item-img" src="Img/Дэрп.jpg" alt="Дэрп">
+            <h1 class="name">Дэрп</h1>
+            <div class="info">
+                <div class="age">1 год</div>
+                <div class="breed">нет</div>
+                <div class="disease">нет</div>
+                <div class="status">ищет хозяина</div>
+            </div>
+            <div class="additional">
+                <p>Хороший игривый рыжий кот</p>
+                <p>Любит бегать по ночам</p>
+            </div>
+        </article>
+
+        <article class="item">
+            <img class="item-img" src="Img/Бродяга.jpg" alt="Бродяга">
+            <h1 class="name">Просто дворовый кот который не влез в строку</h1>
+            <div class="info">
+                <div class="age">3 года</div>
+                <div class="breed">дворовый</div>
+                <div class="disease">есть наверное</div>
+                <div class="status">в вечном поиске хозяина</div>
+            </div>
+            <div class="additional">
+                <p>Обычный дворовый кот. Ничего особенного. Но вдруг ему повезет и его приютят в семью.</p>
+                <p>
+                    Рандомная вырезка из статьи:<br>
+                    Шесть утра, а кошка трогает лапой ваше лицо. "Время просыпаться", - говорит всем своим
+                    видом эта наглая рыжая мордочка. Ей безразлично, что вы не выспались, - она хочет есть.
+                </p>
+            </div>
+        </article>
+    </section>
+</main>
 </body>
 </html>
