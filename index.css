@@ -38,7 +38,7 @@ input:checked ~ section .item .item-img
     box-shadow: 0 0 50px gray;
     border-radius: 1em;
     padding: 20px;
-    margin: 30px 70px 30px 70px;
+    margin: 30px 70px;
     transition: 1s ease-in-out;
 }
 
@@ -46,7 +46,7 @@ input:checked ~ section .item .item-img
 {
     border: 1px solid black;
     box-shadow: 10px -10px 100px black;
-    border-radius: 0.5em;
+    border-radius: .5em;
 }
 
 .item-img
@@ -54,13 +54,13 @@ input:checked ~ section .item .item-img
     width: 280px;
     height: 280px;
     transition: 1s ease-in-out;
-    border-radius: 0.5em;
+    border-radius: .5em;
 }
 
 .item-img:hover
 {
     transform: scale(1.1);
-    border-radius: 10% 50% 10%;
+    border-radius: 10% 50%;
 }
 
 .name
